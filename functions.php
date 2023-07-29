@@ -8,7 +8,7 @@
 
 
 function about_me_action($para1, $para2){
-    $html= '<h1>About Ashraf ' . $para1. '</h1>';
+    $html= '<h1>About Ashraf ' . $para2. '</h1>';
     echo $html; 
 }
 add_action('about-me','about_me_action', 6, 2);
