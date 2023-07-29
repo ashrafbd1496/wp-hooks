@@ -8,7 +8,7 @@
 </head>
 <body <?php body_class(); ?>>
     
-    <?php do_action('about-me'); ?>
+    <?php do_action('about-me','web developer','wordpress developer','learning hook dev','learning wp dev'); ?>
 
     <hr>
 
